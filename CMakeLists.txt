@@ -1,4 +1,5 @@
-﻿# CMakeList.txt : Top-level CMake project file, do 
+﻿project(RenaissanceRenegadeEngine CXX)
+cmake_minimum_required(VERSION 3.16)
 
 # Enable Hot Reload for MSVC compilers if supported.
 if (POLICY CMP0141)
